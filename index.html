@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FounderWire™ — Breaking: Founder’s Secret Project Leaked</title>
+  <meta name="description" content="A clickbaity tech-news style birthday site with photos + a freestyle rap." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="brand">FounderWire<span class="tm">™</span></div>
+      <div class="tagline">Silicon Valley vibes. Desi receipts.</div>
+    </div>
+
+    <div class="topbar__right">
+      <span class="pill">🚨 BREAKING</span>
+      <button class="btn ghost" id="skipToRapBtn" type="button">Skip to Rap 🎤</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- HERO -->
+    <section class="hero card">
+      <div class="hero__text">
+        <p class="kicker">EXCLUSIVE • INTERNAL LEAK • VERIFIED BY VIBES ✅</p>
+        <h1 class="headline">
+          Founder’s <span class="accent">Secret Side Project</span> Goes Public —
+          <span class="nowrap">Investors Shocked</span>
+        </h1>
+        <p class="subhead">
+          Sources confirm the project is <b>highly profitable in serotonin</b>, aggressively scalable,
+          and deployed with suspicious levels of affection.
+        </p>
+
+        <div class="meta">
+          <div class="meta__item">🕒 Updated: <span id="updatedAt">today</span></div>
+          <div class="meta__item">👀 Reads: <span id="readsCounter">10,000+</span></div>
+          <div class="meta__item">🔒 Paywall: <span class="green">disabled (for birthday)</span></div>
+        </div>
+
+        <div class="ctaRow">
+          <button class="btn primary" id="openStoryBtn" type="button">Read full report →</button>
+          <button class="btn" id="openGalleryBtn" type="button">Open leaked photos 📸</button>
+        </div>
+
+        <p class="fineprint">
+          Disclaimer: No founders were harmed in the making of this website.
+          Minor ego inflation possible.
+        </p>
+      </div>
+
+      <aside class="hero__side">
+        <div class="sideCard">
+          <div class="sideCard__title">Relationship Metrics (Q1)</div>
+          <div class="metrics">
+            <div class="metric">
+              <div class="metric__k">Uptime</div>
+              <div class="metric__v">99.99%</div>
+            </div>
+            <div class="metric">
+              <div class="metric__k">Bug Fixes</div>
+              <div class="metric__v">∞ (you’re perfect)</div>
+            </div>
+            <div class="metric">
+              <div class="metric__k">Hug Throughput</div>
+              <div class="metric__v">High</div>
+            </div>
+            <div class="metric">
+              <div class="metric__k">Desi Drama</div>
+              <div class="metric__v">Tasteful ✨</div>
+            </div>
+          </div>
+          <div class="sideCard__footer">
+            <span class="dot"></span> Live monitoring enabled
+          </div>
+        </div>
+
+        <div class="ticker" aria-label="News ticker">
+          <div class="ticker__track" id="tickerTrack">
+            <span>BREAKING:</span>
+            <span>Founder spotted smiling at phone</span>
+            <span>•</span>
+            <span>Leak reveals co-founder is extremely cute</span>
+            <span>•</span>
+            <span>Analysts: “this is a long-term hold”</span>
+            <span>•</span>
+            <span>More at 9 (aka whenever you open this)</span>
+            <span>•</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- STORY -->
+    <section class="card story" id="story">
+      <h2 class="sectionTitle">The Report</h2>
+
+      <div class="storyGrid">
+        <article class="storyBody">
+          <p class="lead">
+            Multiple sources (me) confirm a confidential project has been quietly
+            shipping features such as <b>peace</b>, <b>chaos (cute)</b>, and <b>support</b> —
+            with near-zero downtime.
+          </p>
+
+          <p>
+            Early alpha testers reported symptoms including: random laughing, sudden motivation,
+            and saying “okay fine one more episode” while already choosing the next one.
+          </p>
+
+          <p>
+            On request, FounderWire obtained a stash of photographic evidence.
+            This leak is believed to be <b>100% intentional</b> and <b>emotionally loaded</b>.
+          </p>
+
+          <div class="quote">
+            <p class="quote__text">
+              “He thought he was building startups… turns out he was also building my favorite person.”
+            </p>
+            <p class="quote__by">— Lead Investigator (me)</p>
+          </div>
+
+          <div class="twoBtns">
+            <button class="btn primary" id="scrollGalleryBtn" type="button">Show the evidence 📸</button>
+            <button class="btn" id="scrollRapBtn" type="button">Proceed to rap drop 🎤</button>
+          </div>
+        </article>
+
+        <aside class="sidebar">
+          <div class="miniCard">
+            <div class="miniCard__title">Investor Summary</div>
+            <ul class="bullets">
+              <li>Moat: unmatched vibe + loyalty encryption</li>
+              <li>Team: 2 co-founders, 1 brain cell shared</li>
+              <li>Runway: infinite (god willing + good coffee)</li>
+              <li>Exit strategy: never 😌</li>
+            </ul>
+          </div>
+
+          <div class="miniCard">
+            <div class="miniCard__title">Trending</div>
+            <div class="trend">
+              <span class="trend__tag">#DesiTech</span>
+              <span class="trend__tag">#CutenessIPO</span>
+              <span class="trend__tag">#ShipIt</span>
+              <span class="trend__tag">#FounderAndHisGirl</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="card" id="gallery">
+      <div class="sectionHead">
+        <h2 class="sectionTitle">Leaked Photos</h2>
+        <p class="sectionSub">Scroll. Click. Pretend you’re not smiling.</p>
+      </div>
+
+      <div class="gallery" id="galleryGrid" aria-label="Photo gallery"></div>
+
+      <div class="galleryFooter">
+        <p class="fineprint">
+          Tip: Add more photos anytime — just upload to <code>assets/pics/</code> and update the list in <code>script.js</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- RAP -->
+    <section class="card" id="rap">
+      <div class="sectionHead">
+        <h2 class="sectionTitle">Freestyle Drop</h2>
+        <p class="sectionSub">FounderWire obtained the lyrics. Legal advised us to “let it cook.”</p>
+      </div>
+
+      <div class="rapBox">
+        <div class="rapTop">
+          <div class="rapMeta">
+            <div class="pill soft">🎤 Text Lyrics</div>
+            <div class="pill soft">🧠 100% Original</div>
+            <div class="pill soft">🇮🇳 Full Desi Mode</div>
+          </div>
+          <button class="btn primary" id="revealRapBtn" type="button">Reveal lyrics →</button>
+        </div>
+
+        <div class="rapContent" id="rapContent" hidden>
+          <pre class="lyrics" id="lyrics">
+[PASTE YOUR RAP LYRICS HERE]
+
+Example starter (replace this completely):
+You ship code, I ship vibes,
+Two founders, one timeline,
+You chase dreams, I bring chai,
+We scale love, not just lines.
+          </pre>
+
+          <div class="rapActions">
+            <button class="btn" id="copyLyricsBtn" type="button">Copy lyrics</button>
+            <button class="btn ghost" id="collapseRapBtn" type="button">Hide</button>
+          </div>
+
+          <div class="confettiNote" id="confettiNote" aria-live="polite">
+            ✅ Lyrics deployed. Side effects: blushing.
+          </div>
+        </div>
+      </div>
+
+      <footer class="signoff">
+        <p><b>Happy Birthday,</b> you beautiful overachiever. ❤️</p>
+        <p class="small">— from your favorite journalist / co-founder / menace</p>
+      </footer>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+    <figure class="lightbox__content" role="dialog" aria-label="Photo viewer">
+      <img id="lightboxImg" alt="Selected photo" />
+      <figcaption id="lightboxCaption"></figcaption>
+      <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close">✕</button>
+      <button class="lightbox__nav prev" id="lightboxPrev" type="button" aria-label="Previous">‹</button>
+      <button class="lightbox__nav next" id="lightboxNext" type="button" aria-label="Next">›</button>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
